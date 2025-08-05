@@ -1,6 +1,6 @@
 package datastructure.array_and_strings;
 
-public class Question03 {
+public class URLify {
     public static void main(String[] args) {
         var input = "Hi Hi Hi";
         System.out.println(answer(input));

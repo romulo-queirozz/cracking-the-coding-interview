@@ -1,12 +1,9 @@
 package datastructure.array_and_strings;
 
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
 
-public class Question01 {
-
+public class IsUnique {
 
     public static void main(String[] args) {
         var input = "aa";

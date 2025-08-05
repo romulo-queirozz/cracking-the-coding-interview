@@ -1,6 +1,6 @@
 package datastructure.array_and_strings;
 
-public class Question05 {
+public class OneAway {
 
     public static void main(String[] args) {
         System.out.println(answer("pale", "pxle"));  // true
@@ -10,6 +10,9 @@ public class Question05 {
         System.out.println(answer("pale", "bae"));   // false
     }
 
+//    One Away: There are three types of edits that can be performed on strings: insert a character,
+//    remove a character, or replace a character. Given two strings, write a function to check if they are
+//    one edit (or zero edits) away.
     private static boolean answer(String s1, String s2) {
         if (Math.abs(s1.length() - s2.length()) > 1) return false;
 

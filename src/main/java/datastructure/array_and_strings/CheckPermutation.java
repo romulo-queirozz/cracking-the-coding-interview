@@ -2,7 +2,7 @@ package datastructure.array_and_strings;
 
 import java.util.Arrays;
 
-public class Question02 {
+public class CheckPermutation {
     public static void main(String[] args) {
         var input01 = "caa";
         var input02 = "aac";
