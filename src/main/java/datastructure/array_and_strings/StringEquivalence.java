@@ -35,5 +35,4 @@ public class StringEquivalence {
         return stack01.equals(stack02);
     }
 
-
 }
